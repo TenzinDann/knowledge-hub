@@ -1,6 +1,7 @@
 {
   "name": "hugo-blox-knowledge-base-starter",
   "version": "1.0.0",
+  "packageManager": "pnpm@10.14.0",
   "description": "Modern AI Knowledge Base starter template for Hugo Blox Builder",
   "keywords": [
     "hugo",
