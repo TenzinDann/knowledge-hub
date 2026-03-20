@@ -1,0 +1,27 @@
+{
+  "name": "hugo-blox-knowledge-base-starter",
+  "version": "1.0.0",
+  "description": "Modern AI Knowledge Base starter template for Hugo Blox Builder",
+  "keywords": [
+    "hugo",
+    "hugo-site",
+    "knowledge-base",
+    "Q&A",
+    "FAQ",
+    "AI",
+    "documentation"
+  ],
+  "license": "HugoBlox Pro",
+  "scripts": {
+    "dev": "hugo server --disableFastRender",
+    "build": "hugo --minify",
+    "build:search": "hugo --minify && npx pagefind --source public",
+    "preview": "hugo server --navigateToChanged -e production"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "@tailwindcss/typography": "^0.5.10",
+    "preact": "^10.27.2",
+    "tailwindcss": "^4.1.12"
+  }
+}
