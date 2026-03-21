@@ -12,6 +12,9 @@ public/
 # Hugo resources (processed assets)
 resources/
 
+# Hugo module/cache directory
+.hugo_cache/
+
 # Hugo build lock
 .hugo_build.lock
 
