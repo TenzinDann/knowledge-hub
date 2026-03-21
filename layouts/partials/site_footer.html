@@ -1,4 +1,4 @@
-<footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-8 md:mt-10 mb-4 text-slate-700 dark:text-slate-200">
+<footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-10 md:mt-12 mb-4 text-slate-700 dark:text-slate-200">
 
   {{ partial "functions/get_hook" (dict "hook" "footer-start" "context" .) }}
 
@@ -13,7 +13,7 @@
 
   {{/* Bottom signature logo (centered) */}}
   {{- $signature_logo_height := site.Params.hugoblox.footer.logo_height | default 88 -}}
-  <div class="footer-signature-wrap flex justify-center pt-12 md:pt-16 lg:pt-20 pb-10 md:pb-12">
+  <div class="footer-signature-wrap flex justify-center pt-16 md:pt-20 lg:pt-24 pb-10 md:pb-12">
     <div class="footer-signature-logo text-black dark:text-white select-none" style="height: {{ $signature_logo_height }}px;" aria-label="Site logo">
       {{ if fileExists "static/uploads/logo.svg" }}
         {{ readFile "static/uploads/logo.svg" | safeHTML }}
@@ -33,11 +33,11 @@
 <style>
   /* Match the tighter "last section -> footer logo" rhythm used in tenzindann.github.io */
   .page-body > section.hbb-section:last-of-type {
-    padding-bottom: 2.5rem !important;
+    padding-bottom: 3.5rem !important;
   }
 
   .page-body > section.hbb-section:last-of-type + .page-footer > footer {
-    margin-top: 1.5rem !important;
+    margin-top: 2rem !important;
   }
 
   .footer-signature-logo {
