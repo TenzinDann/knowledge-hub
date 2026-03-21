@@ -19,7 +19,7 @@ sections:
   - block: search-hero
     content:
       badge:
-        text: "500+ AI answers added this week"
+        text: ""
         show_pulse: true
       title: |
         Master ==AI Tools==.
