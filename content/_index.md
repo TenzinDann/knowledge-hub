@@ -20,7 +20,7 @@ sections:
     content:
       badge:
         text: ""
-        show_pulse: true
+        show_pulse: False
       title: |
         Master ==AI Tools==.
         
