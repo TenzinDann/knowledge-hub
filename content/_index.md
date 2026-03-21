@@ -19,8 +19,8 @@ sections:
   - block: search-hero
     content:
       badge:
-        text: ""
-        show_pulse: False
+        text: "A journey of a thousand miles starts with a single step"
+        show_pulse: True
       title: |
         Master ==AI Tools==.
         
