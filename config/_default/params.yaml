@@ -106,6 +106,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal                     # minimal | columns | centered
+    logo_height: 88
     language_switcher: true
     # Custom footer text (HTML supported)
     text: ""

@@ -12,15 +12,16 @@
   {{ partial $footer_section_path . }}
 
   {{/* Bottom signature logo (centered) */}}
+  {{- $signature_logo_height := site.Params.hugoblox.footer.logo_height | default 88 -}}
   <div class="flex justify-center pt-24 md:pt-32 lg:pt-40 pb-10 md:pb-14">
-    <div class="footer-signature-logo w-24 md:w-28 lg:w-32 text-black dark:text-white select-none" aria-label="Site logo">
+    <div class="footer-signature-logo text-black dark:text-white select-none" style="height: {{ $signature_logo_height }}px;" aria-label="Site logo">
       {{ if fileExists "static/uploads/logo.svg" }}
         {{ readFile "static/uploads/logo.svg" | safeHTML }}
       {{ else }}
         <img
           src="/uploads/logo.svg"
           alt="Site logo"
-          class="w-full h-auto dark:invert"
+          class="h-full w-auto dark:invert"
           decoding="async"
           loading="lazy" />
       {{ end }}
@@ -38,8 +39,8 @@
   }
   .footer-signature-logo svg {
     display: block;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     color: currentColor;
   }
   .footer-signature-logo svg * {
