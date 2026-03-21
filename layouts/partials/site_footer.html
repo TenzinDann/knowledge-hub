@@ -13,12 +13,37 @@
 
   {{/* Bottom signature logo (centered) */}}
   <div class="flex justify-center pt-24 md:pt-32 lg:pt-40 pb-10 md:pb-14">
-    <img
-      src="/uploads/logo.svg"
-      alt="Site logo"
-      class="w-16 md:w-20 h-auto select-none"
-      decoding="async"
-      loading="lazy" />
+    <div class="footer-signature-logo w-24 md:w-28 lg:w-32 text-black dark:text-white select-none" aria-label="Site logo">
+      {{ if fileExists "static/uploads/logo.svg" }}
+        {{ readFile "static/uploads/logo.svg" | safeHTML }}
+      {{ else }}
+        <img
+          src="/uploads/logo.svg"
+          alt="Site logo"
+          class="w-full h-auto dark:invert"
+          decoding="async"
+          loading="lazy" />
+      {{ end }}
+    </div>
   </div>
 
 </footer>
+
+<style>
+  .footer-signature-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+  }
+  .footer-signature-logo svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    color: currentColor;
+  }
+  .footer-signature-logo svg * {
+    fill: currentColor !important;
+    stroke: currentColor !important;
+  }
+</style>
