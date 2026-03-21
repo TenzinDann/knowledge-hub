@@ -116,9 +116,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} AI Knowledge Hub. This work is licensed under {license}"
+    notice: ""
     license:
-      type: cc                         # cc | custom
+      type: custom                     # cc | custom
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -306,7 +306,7 @@ hugoblox:
     # Requires: Pro subscription to support HugoBlox via alternative means
     # Note: Even with Pro, you can keep this false to support open source!
     # Get Pro: https://hugoblox.com/pro
-    hide_attribution: false
+    hide_attribution: true
 
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
