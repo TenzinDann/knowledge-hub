@@ -240,20 +240,6 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
 
-  - block: stats
-    content:
-      items:
-        - statistic: "2,500+"
-          description: Expert-verified answers
-        - statistic: "24hr"
-          description: Average response time
-        - statistic: "98%"
-          description: User satisfaction rate
-    design:
-      css_class: "bg-gradient-to-r from-primary-200 to-primary-300 dark:from-primary-800 dark:to-primary-900"
-      spacing:
-        padding: ["3rem", "0", "3rem", "0"]
-
   - block: cta-card
     content:
       title: "Ready to Master AI?"
