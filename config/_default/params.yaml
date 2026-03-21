@@ -13,9 +13,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "AI Knowledge Hub"
+    name: "Knowledge Hub"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: "AI Knowledge Hub"
+    organization: "Knowledge Hub"
     # Schema.org type for structured data
     type: organization                 # person | organization | local_business
     # Short tagline displayed on your site
