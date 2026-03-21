@@ -19,7 +19,7 @@ sections:
   - block: search-hero
     content:
       badge:
-        text: "A journey of a thousand miles starts with a single step"
+        text: "千里之行始于足下"
         show_pulse: True
       title: |
         Master ==AI Tools==.
