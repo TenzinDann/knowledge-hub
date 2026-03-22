@@ -22,9 +22,9 @@ sections:
         text: "千里之行始于足下"
         show_pulse: True
       title: |
-        掌握 ==AI 工具==
+        个人 ==数据库==
         
-        提升你的 ==生产力==
+        探索一切 ====
       subtitle: "从我们的综合知识库中快速获得 AI 问题答案。向专家学习最佳实践，始终走在 AI 前沿。"
       search_placeholder: "搜索 AI 工具、提示词或工作流相关问题..."
       suggestions:
