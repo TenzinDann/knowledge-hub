@@ -7,7 +7,7 @@ type: landing
 faq_page: true
 faqs:
   - question: "什么是智库?"
-    answer: "AI Knowledge Hub 是你系统掌握 AI 工具、提升效率的一站式资源库。我们提供专家解答、实用指南与社区经验，帮助你更高效地用好 AI。"
+    answer: "Knowledge Hub 是你系统掌握 AI 工具、提升效率的一站式资源库。我们提供专家解答、实用指南与社区经验，帮助你更高效地用好 AI。"
   
   - question: "这个知识库可以免费使用吗?"
     answer: "可以！我们的知识库完全免费并向所有人开放。我们相信 AI 知识应当被普及，让全球个人与组织都能受益。"
@@ -22,10 +22,10 @@ sections:
         text: "千里之行始于足下"
         show_pulse: True
       title: |
-        综合 ==数据库==
+        Knowledge Hub ==智库==
         
         质疑一切 ==探索一切==
-      subtitle: "从我们的综合知识库中快速获得 AI 问题答案。向专家学习最佳实践，始终走在 AI 前沿。"
+      subtitle: "个人综合数据库，涵盖本人使用的各类领域和各类数据"
       search_placeholder: "搜索 AI 工具、提示词或工作流相关问题..."
       suggestions:
         - "ChatGPT 提示词"
@@ -33,12 +33,12 @@ sections:
         - "AI 自动化"
         - "Claude 与 GPT-4 对比"
       stats:
-        - value: "2,500+"
-          label: "专家解答"
-        - value: "50K+"
-          label: "月活用户"
-        - value: "4.9/5"
-          label: "用户评分"
+        - value: ""
+          label: ""
+        - value: ""
+          label: ""
+        - value: ""
+          label: ""
     design:
       background:
           gradient_mesh:
@@ -183,7 +183,7 @@ sections:
 
   - block: features
     content:
-      title: 为什么选择 AI Knowledge Hub？
+      title: 为什么选择 Knowledge Hub？
       text: 由 AI 专家打造，帮助每个人把人工智能真正用到工作与生活中
       items:
         - name: 专家审核
@@ -226,7 +226,7 @@ sections:
             点击导航栏中的“贡献”按钮即可开始！
         
         - question: "我可以把这些内容用于自己的项目吗？"
-          answer: "可以！所有内容均基于 Creative Commons 许可发布。你可以在标注来源为 AI Knowledge Hub 的前提下使用、改编和分享。"
+          answer: "可以！所有内容均基于 Creative Commons 许可发布。你可以在标注来源为 Knowledge Hub 的前提下使用、改编和分享。"
         
         - question: "你们如何保证答案质量？"
           answer: "我们采用多层审核机制：社区投票、专家复核，以及基于用户反馈的持续更新。过时或错误信息会被快速标记并修正。"
@@ -242,11 +242,11 @@ sections:
 
   - block: cta-card
     content:
-      title: "准备好掌握 AI 了吗？"
-      text: 加入数千名专业人士与爱好者，一起学习如何最大化发挥 AI 的价值。
+      title: "关于作者"
+      text: 社科出身的机器学习在读研究生
       button:
-        text: "立即开始探索 →"
-        url: "/questions/"
+        text: "联系作者"
+        url: "https://tenzindann.github.io/"
     design:
       card:
         css_class: "bg-gradient-to-r from-primary-200 to-primary-300 dark:from-primary-800 dark:to-primary-900"

@@ -9,4 +9,4 @@ summary: "浏览我们的 AI 知识库，获取关于 ChatGPT、Claude、Midjour
 sort_by: "date"
 ---
 
-欢迎来到 AI Knowledge Hub！你可以浏览经过专家审核的答案，也可以直接搜索具体主题。我们的知识库会持续更新最新 AI 洞察与最佳实践。
+欢迎来到 Knowledge Hub！你可以浏览经过专家审核的答案，也可以直接搜索具体主题。我们的知识库会持续更新最新 AI 洞察与最佳实践。

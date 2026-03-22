@@ -34,7 +34,7 @@ suggested_answer:
     upvote_count: 32
 
 seo:
-  title: "ChatGPT 编程提示词：5 个专家技巧 | AI Knowledge Hub"
+  title: "ChatGPT 编程提示词：5 个专家技巧 | Knowledge Hub"
   description: "学习如何写出更有效的 ChatGPT 编程提示词。用专家验证的方法提升代码质量与开发速度。"
 ---
 
