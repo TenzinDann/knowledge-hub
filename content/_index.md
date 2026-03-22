@@ -28,10 +28,10 @@ sections:
       subtitle: "个人综合数据库，涵盖本人使用的各类领域和各类数据"
       search_placeholder: "搜索 AI 工具、提示词或工作流相关问题..."
       suggestions:
-        - "ChatGPT 提示词"
-        - "Midjourney 技巧"
-        - "AI 自动化"
-        - "Claude 与 GPT-4 对比"
+        - "机器学习流程"
+        - "prompts技巧"
+        - "前端数据集合"
+        - "游戏模组数据备份"
       stats:
         - value: ""
           label: ""
@@ -185,29 +185,26 @@ sections:
   - block: faq
     content:
       title: 常见问题
-      subtitle: 关于平台的高频问题速览
+      subtitle: (其实没人问)
       items:
-        - question: "如何为知识库做贡献？"
+        - question: "这个智库是干啥的"
           answer: |
-            你可以通过以下方式参与：
-            - 提出尚未被回答的新问题
-            - 为已有问题补充高质量答案
-            - 给有帮助的内容点赞
-            - 提交修改建议与优化意见
+            这个智库本质是本人的网络仓库，但是会用于与他人分享资源，包括但不限于：
+            - 用于prompt的各种skills
+            - 用于不同类型的agent.md
+            - 用于前端的各种资源
+            - 用于娱乐的游戏模组资源
             
-            点击导航栏中的“贡献”按钮即可开始！
+            希望这个仓库麻雀虽小五脏俱全，如果能帮到你的话，非常荣幸！
         
         - question: "我可以把这些内容用于自己的项目吗？"
-          answer: "可以！所有内容均基于 Creative Commons 许可发布。你可以在标注来源为 Knowledge Hub 的前提下使用、改编和分享。"
-        
-        - question: "你们如何保证答案质量？"
-          answer: "我们采用多层审核机制：社区投票、专家复核，以及基于用户反馈的持续更新。过时或错误信息会被快速标记并修正。"
+          answer: "可以！所有内容都是用于分享的。你可以在标注来源为 TenzinDann 的前提下使用、改编和分享"
         
         - question: "提供 API 访问吗？"
-          answer: "目前我们提供 RSS 订阅和 JSON 导出。完整 API 已在路线图中，目标发布时间为 2025 年 Q2。欢迎订阅获取更新！"
+          answer: "我就一学生，莫得钱搭建服务器来给你提供API"
         
-        - question: "你们和 ChatGPT 或 Claude 有什么不同？"
-          answer: "相比通用聊天机器人，我们提供的是经过筛选、可验证、格式统一、并聚焦 AI 实操场景的知识答案。你可以把我们理解为专注 AI 的专业参考手册。"
+        - question: "网站上的AI是真的吗"
+          answer: "是真的，但是用的是通过免费的API接入的基础模型，相比常见的通用聊天机器人，性能可能有些许不足，但是能用就行了"
     design:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
@@ -215,7 +212,7 @@ sections:
   - block: cta-card
     content:
       title: "关于作者"
-      text: 社科出身的机器学习在读研究生
+      text: 本人是一名社科出身的机器学习在读研究生，有关本人的更多资料，可以点击下方按钮来进入我的个人网站参观
       button:
         text: "联系作者"
         url: "https://tenzindann.github.io/"
