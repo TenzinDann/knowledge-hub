@@ -32,13 +32,15 @@ sections:
         - "prompts技巧"
         - "前端数据集合"
         - "游戏模组数据备份"
+
       stats:
-        - value: ""
-          label: ""
-        - value: ""
-          label: ""
-        - value: ""
-          label: ""
+        - value: "1000+"
+          label: "机器学习数据集"
+        - value: "50+"
+          label: "前端网络设计资源"
+        - value: "100+"
+          label: "prompt技巧"
+
     design:
       background:
           gradient_mesh:
