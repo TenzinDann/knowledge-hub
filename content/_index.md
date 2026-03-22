@@ -1,5 +1,5 @@
 ---
-title: '起始页'
+title: 'Home'
 date: 2024-10-21
 type: landing
 
