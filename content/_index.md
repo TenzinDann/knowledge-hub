@@ -181,34 +181,6 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
 
-  - block: features
-    content:
-      title: 为什么选择 Knowledge Hub？
-      text: 由 AI 专家打造，帮助每个人把人工智能真正用到工作与生活中
-      items:
-        - name: 专家审核
-          icon: shield-check
-          description: 每个答案都经过 AI 从业者与行业专家审核验证。
-        
-        - name: 持续更新
-          icon: arrow-path
-          description: 每日更新最新 AI 动态、工具进展与实践方法。
-        
-        - name: 社区驱动
-          icon: user-group
-          description: 向 50,000+ AI 爱好者与专业人士组成的活跃社区学习。
-        
-        - name: 注重实战
-          icon: beaker
-          description: 提供真实案例、代码片段与可直接落地的行动建议。
-        
-        - name: 新手友好
-          icon: academic-cap
-          description: 面向不同水平用户提供清晰解释与学习路径。
-        
-        - name: 永久免费
-          icon: gift
-          description: 无付费墙、无订阅门槛。知识应当对所有人开放。
 
   - block: faq
     content:
