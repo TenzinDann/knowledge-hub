@@ -30,6 +30,10 @@ hugo_stats.json
 
 # Dependencies
 node_modules/
+.npm-cache/
+.pnpm-home/
+.pnpm-store/
+.tools/
 
 # ============================================================================
 # Environment & Configuration
