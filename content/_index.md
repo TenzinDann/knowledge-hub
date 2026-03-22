@@ -1,12 +1,12 @@
 ---
-title: 'Home'
+title: '起始页'
 date: 2024-10-21
 type: landing
 
 # Enable FAQ structured data on homepage
 faq_page: true
 faqs:
-  - question: "What is AI Knowledge Hub?"
+  - question: "什么是智库?"
     answer: "AI Knowledge Hub is your comprehensive resource for mastering AI tools and boosting productivity. We provide expert answers, practical guides, and community-driven insights to help you leverage AI effectively."
   
   - question: "Is the knowledge base free to use?"
