@@ -7,13 +7,13 @@ type: landing
 faq_page: true
 faqs:
   - question: "什么是智库?"
-    answer: "AI Knowledge Hub is your comprehensive resource for mastering AI tools and boosting productivity. We provide expert answers, practical guides, and community-driven insights to help you leverage AI effectively."
+    answer: "AI Knowledge Hub 是你系统掌握 AI 工具、提升效率的一站式资源库。我们提供专家解答、实用指南与社区经验，帮助你更高效地用好 AI。"
   
-  - question: "Is the knowledge base free to use?"
-    answer: "Yes! Our knowledge base is completely free and open to everyone. We believe in democratizing AI knowledge to empower individuals and organizations worldwide."
+  - question: "这个知识库可以免费使用吗?"
+    answer: "可以！我们的知识库完全免费并向所有人开放。我们相信 AI 知识应当被普及，让全球个人与组织都能受益。"
   
-  - question: "How often is the content updated?"
-    answer: "We update our knowledge base daily with new questions, answers, and insights from our community of AI experts and practitioners. Subscribe to stay informed about the latest AI developments."
+  - question: "内容多久更新一次?"
+    answer: "我们每天都会更新知识库，补充新的问题、答案和洞见。你可以订阅我们，持续了解最新 AI 动态。"
 
 sections:
   - block: search-hero
@@ -22,23 +22,23 @@ sections:
         text: "千里之行始于足下"
         show_pulse: True
       title: |
-        Master ==AI Tools==.
+        掌握 ==AI 工具==。
         
-        Boost Your ==Productivity==.
-      subtitle: "Get instant answers to your AI questions from our comprehensive knowledge base. Learn from experts, discover best practices, and stay ahead with AI."
-      search_placeholder: "Ask anything about AI tools, prompts, or workflows..."
+        提升你的 ==生产力==。
+      subtitle: "从我们的综合知识库中快速获得 AI 问题答案。向专家学习最佳实践，始终走在 AI 前沿。"
+      search_placeholder: "搜索 AI 工具、提示词或工作流相关问题..."
       suggestions:
-        - "ChatGPT prompts"
-        - "Midjourney tips"
-        - "AI automation"
-        - "Claude vs GPT-4"
+        - "ChatGPT 提示词"
+        - "Midjourney 技巧"
+        - "AI 自动化"
+        - "Claude 与 GPT-4 对比"
       stats:
         - value: "2,500+"
-          label: "Expert Answers"
+          label: "专家解答"
         - value: "50K+"
-          label: "Monthly Users"
+          label: "月活用户"
         - value: "4.9/5"
-          label: "User Rating"
+          label: "用户评分"
     design:
       background:
           gradient_mesh:
@@ -59,121 +59,121 @@ sections:
   - block: knowledge-categories
     id: categories
     content:
-      title: Browse by Category
-      subtitle: Find answers organized by topic and expertise level
+      title: 按分类浏览
+      subtitle: 按主题与难度快速找到答案
       categories:
-        - category: "Getting Started"
-          title: "Getting Started"
-          description: "New to AI? Start here with basics and fundamentals"
+        - category: "入门"
+          title: "入门"
+          description: "刚接触 AI？从基础概念与核心知识开始"
           icon:
             name: rocket-launch
             bg_color: "bg-green-100 dark:bg-green-900/50"
             text_color: "text-green-600 dark:text-green-400"
         
         - category: "ChatGPT"
-          title: "ChatGPT & Claude"
-          description: "Master conversational AI and prompt engineering"
+          title: "ChatGPT 与 Claude"
+          description: "掌握对话式 AI 与提示词工程"
           icon:
             name: chat-bubble-left-right
             bg_color: "bg-blue-100 dark:bg-blue-900/50"
             text_color: "text-blue-600 dark:text-blue-400"
         
-        - category: "Image Generation"
-          title: "Image Generation"
-          description: "Create stunning visuals with Midjourney, DALL-E, and more"
+        - category: "图像生成"
+          title: "图像生成"
+          description: "用 Midjourney、DALL-E 等工具创作高质量视觉内容"
           icon:
             name: photo
             bg_color: "bg-purple-100 dark:bg-purple-900/50"
             text_color: "text-purple-600 dark:text-purple-400"
         
-        - category: "AI Automation"
-          title: "AI Automation"
-          description: "Build workflows and automate tasks with AI"
+        - category: "AI 自动化"
+          title: "AI 自动化"
+          description: "构建工作流，用 AI 自动完成重复任务"
           icon:
             name: cog
             bg_color: "bg-orange-100 dark:bg-orange-900/50"
             text_color: "text-orange-600 dark:text-orange-400"
         
-        - category: "Coding"
-          title: "Coding with AI"
-          description: "GitHub Copilot, Cursor, and AI-powered development"
+        - category: "编程"
+          title: "AI 编程"
+          description: "GitHub Copilot、Cursor 与 AI 驱动开发实践"
           icon:
             name: code-bracket
             bg_color: "bg-indigo-100 dark:bg-indigo-900/50"
             text_color: "text-indigo-600 dark:text-indigo-400"
         
-        - category: "AI for Business"
-          title: "AI for Business"
-          description: "Enterprise solutions and business applications"
+        - category: "AI 商业应用"
+          title: "AI 商业应用"
+          description: "面向企业场景的解决方案与实践"
           icon:
             name: briefcase
             bg_color: "bg-gray-100 dark:bg-gray-800"
             text_color: "text-gray-600 dark:text-gray-400"
         
-        - category: "Ethics & Safety"
-          title: "Ethics & Safety"
-          description: "Responsible AI use and safety guidelines"
+        - category: "伦理与安全"
+          title: "伦理与安全"
+          description: "负责任地使用 AI 的原则与安全指南"
           icon:
             name: shield-check
             bg_color: "bg-red-100 dark:bg-red-900/50"
             text_color: "text-red-600 dark:text-red-400"
         
-        - category: "Latest Updates"
-          title: "Latest Updates"
-          description: "Breaking news and recent AI developments"
+        - category: "最新动态"
+          title: "最新动态"
+          description: "AI 领域最新新闻与趋势更新"
           icon:
             name: newspaper
             bg_color: "bg-yellow-100 dark:bg-yellow-900/50"
             text_color: "text-yellow-600 dark:text-yellow-400"
           
       view_all:
-        text: "View All Categories"
+        text: "查看全部分类"
         link: "/categories/"
 
   - block: trending-questions
     id: trending
     content:
-      title: "🔥 Trending Questions"
-      subtitle: "Popular topics our community is exploring"
+      title: "🔥 热门问题"
+      subtitle: "社区当前最关注的话题"
       questions:
-        - question: "How do I write better ChatGPT prompts for coding?"
-          answer_preview: "Master prompt engineering with these 5 essential techniques: be specific, provide context, use examples..."
+        - question: "如何写出更好的 ChatGPT 编程提示词？"
+          answer_preview: "掌握 5 个关键技巧：描述具体目标、补充上下文、提供示例、明确约束并持续迭代..."
           link: "/questions/chatgpt-coding-prompts/"
           badge:
-            text: "HOT"
+            text: "热门"
             color: "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-200"
           author: "Alex Chen"
           views: "12.5k"
           upvotes: 234
         
-        - question: "What's the difference between GPT-4 and Claude 3?"
-          answer_preview: "Compare capabilities, pricing, and use cases of these leading AI models. GPT-4 excels at..."
+        - question: "GPT-4 和 Claude 3 的区别是什么？"
+          answer_preview: "从能力、价格和适用场景对比两款主流模型。GPT-4 擅长..."
           link: "/questions/gpt4-vs-claude3/"
           badge:
-            text: "UPDATED"
+            text: "已更新"
             color: "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-200"
           author: "Sarah Liu"
           views: "8.3k"
           upvotes: 189
         
-        - question: "Can AI replace my job as a developer?"
-          answer_preview: "Understanding AI's impact on software development careers and how to future-proof your skills..."
+        - question: "AI 会取代我的开发工作吗？"
+          answer_preview: "理解 AI 对软件开发职业的影响，并学习如何打造更有韧性的技能组合..."
           link: "/questions/ai-developer-jobs/"
           author: "Mike Johnson"
           views: "15.2k"
           upvotes: 412
         
-        - question: "How to create consistent characters in Midjourney?"
-          answer_preview: "Learn the seed technique and style references to maintain character consistency across..."
+        - question: "如何在 Midjourney 中创建稳定一致的角色？"
+          answer_preview: "学习 seed 技巧与风格参考，在不同画面中保持角色一致性..."
           link: "/questions/midjourney-consistent-characters/"
           badge:
-            text: "TRENDING"
+            text: "趋势"
           author: "Emma Davis"
           views: "6.7k"
           upvotes: 156
           
       view_all:
-        text: "Browse All Questions"
+        text: "浏览全部问题"
         link: "/questions/"
     design:
       background:
@@ -183,69 +183,69 @@ sections:
 
   - block: features
     content:
-      title: Why Choose AI Knowledge Hub?
-      text: Built by AI experts, for everyone looking to harness the power of artificial intelligence
+      title: 为什么选择 AI Knowledge Hub？
+      text: 由 AI 专家打造，帮助每个人把人工智能真正用到工作与生活中
       items:
-        - name: Expert-Verified
+        - name: 专家审核
           icon: shield-check
-          description: Every answer is reviewed and verified by AI practitioners and industry experts.
+          description: 每个答案都经过 AI 从业者与行业专家审核验证。
         
-        - name: Always Current
+        - name: 持续更新
           icon: arrow-path
-          description: Updated daily with the latest AI developments, tools, and best practices.
+          description: 每日更新最新 AI 动态、工具进展与实践方法。
         
-        - name: Community-Driven
+        - name: 社区驱动
           icon: user-group
-          description: Learn from a vibrant community of 50,000+ AI enthusiasts and professionals.
+          description: 向 50,000+ AI 爱好者与专业人士组成的活跃社区学习。
         
-        - name: Practical Focus
+        - name: 注重实战
           icon: beaker
-          description: Real-world examples, code snippets, and actionable insights you can use today.
+          description: 提供真实案例、代码片段与可直接落地的行动建议。
         
-        - name: Beginner Friendly
+        - name: 新手友好
           icon: academic-cap
-          description: Clear explanations and learning paths for users at every skill level.
+          description: 面向不同水平用户提供清晰解释与学习路径。
         
-        - name: Free Forever
+        - name: 永久免费
           icon: gift
-          description: No paywalls, no subscriptions. Knowledge should be accessible to everyone.
+          description: 无付费墙、无订阅门槛。知识应当对所有人开放。
 
   - block: faq
     content:
-      title: Frequently Asked Questions
-      subtitle: Quick answers to common questions about our platform
+      title: 常见问题
+      subtitle: 关于平台的高频问题速览
       items:
-        - question: "How do I contribute to the knowledge base?"
+        - question: "如何为知识库做贡献？"
           answer: |
-            You can contribute by:
-            - Asking new questions that haven't been answered
-            - Providing detailed answers to existing questions
-            - Upvoting helpful content
-            - Suggesting edits and improvements
+            你可以通过以下方式参与：
+            - 提出尚未被回答的新问题
+            - 为已有问题补充高质量答案
+            - 给有帮助的内容点赞
+            - 提交修改建议与优化意见
             
-            Click the "Contribute" button in the navigation to get started!
+            点击导航栏中的“贡献”按钮即可开始！
         
-        - question: "Can I use the content for my own projects?"
-          answer: "Yes! All content is available under Creative Commons license. You're free to use, adapt, and share the knowledge with attribution to AI Knowledge Hub."
+        - question: "我可以把这些内容用于自己的项目吗？"
+          answer: "可以！所有内容均基于 Creative Commons 许可发布。你可以在标注来源为 AI Knowledge Hub 的前提下使用、改编和分享。"
         
-        - question: "How do you ensure answer quality?"
-          answer: "We have a multi-tier review process: community voting, expert verification, and continuous updates based on user feedback. Outdated or incorrect information is quickly flagged and corrected."
+        - question: "你们如何保证答案质量？"
+          answer: "我们采用多层审核机制：社区投票、专家复核，以及基于用户反馈的持续更新。过时或错误信息会被快速标记并修正。"
         
-        - question: "Do you offer API access?"
-          answer: "Currently, we provide RSS feeds and JSON exports. A full API is on our roadmap for Q2 2025. Subscribe to our newsletter for updates!"
+        - question: "提供 API 访问吗？"
+          answer: "目前我们提供 RSS 订阅和 JSON 导出。完整 API 已在路线图中，目标发布时间为 2025 年 Q2。欢迎订阅获取更新！"
         
-        - question: "What makes you different from ChatGPT or Claude?"
-          answer: "While AI chatbots provide general responses, our knowledge base offers curated, verified, and consistently formatted answers specifically focused on practical AI usage. Think of us as your specialized AI reference guide."
+        - question: "你们和 ChatGPT 或 Claude 有什么不同？"
+          answer: "相比通用聊天机器人，我们提供的是经过筛选、可验证、格式统一、并聚焦 AI 实操场景的知识答案。你可以把我们理解为专注 AI 的专业参考手册。"
     design:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
 
   - block: cta-card
     content:
-      title: "Ready to Master AI?"
-      text: Join thousands of professionals and enthusiasts learning to leverage AI for maximum impact.
+      title: "准备好掌握 AI 了吗？"
+      text: 加入数千名专业人士与爱好者，一起学习如何最大化发挥 AI 的价值。
       button:
-        text: "Start Exploring →"
+        text: "立即开始探索 →"
         url: "/questions/"
     design:
       card:

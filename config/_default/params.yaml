@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "Master AI tools and boost your productivity with our comprehensive knowledge base. Expert answers to your AI questions."
+    description: "通过系统化知识库掌握 AI 工具并提升生产力。为你的 AI 问题提供专家级解答。"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "BuildLore"        # Twitter/X handle for Twitter Cards (without @)
@@ -177,26 +177,26 @@ hugoblox:
     enable: true
     # Trending/suggested search terms
     suggestions:
-      - "ChatGPT prompts"
-      - "AI jobs"
-      - "Claude vs GPT-4"
-      - "Midjourney tips"
-      - "Python automation"
-      - "React hooks"
+      - "ChatGPT 提示词"
+      - "AI 求职"
+      - "Claude 与 GPT-4 对比"
+      - "Midjourney 技巧"
+      - "Python 自动化"
+      - "React Hooks"
     # Quick action shortcuts in search modal
     quick_actions:
-      - title: "Browse Questions"
-        description: "Explore Q&A database"
+      - title: "浏览问答"
+        description: "探索知识问答库"
         url: "/questions/"
         icon: "question-mark-circle"
         color: "primary"
-      - title: "View FAQs"
-        description: "Common questions answered"
+      - title: "查看常见问题"
+        description: "快速查看高频问题解答"
         url: "/faq/"
         icon: "document-text"
         color: "green"
-      - title: "Ask on Discord"
-        description: "Can't find what you need?"
+      - title: "前往 Discord 提问"
+        description: "没找到你需要的内容？"
         url: "https://discord.gg/z8wNYzb"
         icon: "chat-bubble-left-right"
         color: "blue"
@@ -264,9 +264,9 @@ hugoblox:
   # Regional formatting preferences
   # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "Jan 2, 2006"         # Go time format
-    time_format: "3:04 PM"
-    address_format: en-us
+    date_format: "2006年1月2日"         # Go time format
+    time_format: "15:04"
+    address_format: zh-cn
 
   # ────────────────────────────────────────────────────────────────────────────
   # SECURITY

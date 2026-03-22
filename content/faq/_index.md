@@ -1,7 +1,7 @@
 ---
-title: "FAQ Center"
+title: "常见问题中心"
 date: 2024-10-21
 type: faq
 ---
 
-Browse our frequently asked questions organized by topic. Can't find what you're looking for? [Ask a new question](/questions/new/) and our community will help!
+按主题浏览我们的常见问题。没找到你想要的内容？欢迎[提交一个新问题](/questions/new/)，社区会帮你一起解答！
